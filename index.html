@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <title>Magyarország tavai</title>
+</head>
+
+<body>
+    <header>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87679.74345747296!2d19.073979995903173!3d46.626920502957255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47425027e1b2423b%3A0x4212a8621c81e661!2sSzelidi-t%C3%B3!5e0!3m2!1shu!2sde!4v1697800493757!5m2!1shu!2sde"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </header>
+    <aside id="navbar">
+        <section>
+            <nav id="navigation">
+                <ul>
+                    <li>
+                        <a href="#section_1">Balaton</a>
+                    </li>
+                    <li>
+                        <a href="#section_2">Tisza-tó</a>
+                    </li>
+                    <li>
+                        <a href="#section_3">Szelidi-tó</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="form_container">
+            <h3>Jelentkezéshez,kérjük töltse ki az adatokat</h3>
+            <form>
+                <label class="label" for="name">Név</label>
+                <input type="text" id="name" name="name" placeholder="Adja meg a nevét" required>
+                <label class="label" for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Adja meg az e-mail címét" required>
+                <label class="label" for="cellphone">Telefonszám</label>
+                <input type="text" id="cellphone" name="cellphone" placeholder="Adja meg a telefonszámát" required>
+                <label class="label" name="subject">Melyik tó érdekli ?</label>
+                <select name="select" id="select" required>
+                    <option value="choose">Kérjük válasszon</option>
+                    <option value="balaton">Balaton</option>
+                    <option value="tisza_to">Tisza-tó</option>
+                    <option value="szelidi_to">Szelidi-tó</option>
+                </select>
+                <p>Milyen szállást keres ?</p>
+                <section class="checkbox">
+                    <input type="checkbox" name="acc_1" id="acc_1" value="szálloda">
+                    <label class="label_1" name="acc_1">Szálloda</label>
+                    <input type="checkbox" name="acc_2" id="acc_2" value="apartmanház">
+                    <label class="label_1" name="acc_2">Apartmanház</label>
+                    <input type="checkbox" name="acc_3" id="acc_3" value="kemping">
+                    <label class="label_1" name="acc_3">Kemping</label>
+                    <sction />
+                    <p>Milyen ellátás legyen ?</p>
+                    <section class="radio">
+                        <input type="radio" name="service" value="teljes">
+                        <label class="label_2" for="teljes">Teljes</label>
+                        <input type="radio" name="service" value="fél_panzió">
+                        <label class="label_2" for="fél_panzió">Fél panzió</label>
+                        <input type="radio" name="service" value="csak_reggelo">
+                        <label class="label_2" for="csak_reggeli">Csak reggeli</label>
+                        <input type="radio" name="service" value="nem_kerek">
+                        <label class="label_2" for="nem_kerek">Nem kérek ellátást</label>
+                    </section>
+                    <p>Egyéb üzenet</p>
+                    <textarea name="leave_word" id="leave_word" cols="30" rows="10"
+                        placeholder="Hagyjon üzenetet"></textarea>
+                    <input type="submit" value="Mehet">
+            </form>
+        </section>
+    </aside>
+    <main class="main">
+        <section id="section_1" class="section">
+            <h2>Balaton</h2>
+            <figure>
+                <img src="img/balaton_sec_1.jpg" alt="balaton">
+                <figcaption>Balatoni naplemente</figcaption>
+            </figure>
+            <div class="content">
+                <p>A Balaton Magyarország legnagyobb tava, és egy lenyűgöző úti cél a természet és a kikapcsolódás
+                    szerelmesei számára. A tó partján fekvő városok és települések kiváló lehetőséget kínálnak a
+                    pihenésre, vízi sportokra és kulturális élményekre. A balatoni part mentén húzódó kerékpárutak és
+                    túraösvények lehetővé teszik a gyönyörű táj felfedezését. A Balaton éves rendezvények és fesztiválok
+                    otthona is, például a híres Balaton Sound zenei fesztivál és a borvidéki borászatok, ahol a
+                    látogatók kiváló minőségű borokat kóstolhatnak. Ne hagyja ki a Balaton csodálatos naplementéit, és
+                    élvezze a helyi éttermekben és vendéglőkben a tradicionális magyar ételeket és specialitásokat. Az
+                    utazók számára a Balaton valóban egy feledhetetlen élmény, ahol a természet és a kultúra tökéletes
+                    harmóniában találkozik.</p>
+            </div>
+        </section>
+        <section id="section_2" class="section">
+            <h2>Tisza-tó</h2>
+            <figure>
+                <img src="img/tisza_to.jpg" alt="tisza_to">
+                <figcaption>Tisza-tó,szabadstrand</figcaption>
+            </figure>
+            <div class="content">
+                <p>A Tisza-tó Magyarország egyik legkülönlegesebb természeti kincse, és tökéletes úti cél azok számára,
+                    akik
+                    szeretik a vízparti pihenést és a természetközeli élményeket. A tó környékén elterülő Nemzeti Park
+                    csodálatos élőhelyet nyújt számos madárfajnak, így a madárleső állványokról ideális lehetőség nyílik
+                    a
+                    madarak megfigyelésére. A környék számos túraútvonala és kerékpárútja lehetővé teszi a
+                    természetjárók
+                    számára a gyönyörű táj felfedezését. A tó maga kiváló lehetőséget kínál horgászatra, kajakozásra,
+                    vitorlázásra és strandolásra. A közeli Tiszafüred és Poroszló városai pedig gazdag kulturális
+                    élményeket
+                    nyújtanak, például múzeumokat és hagyományos magyar éttermeket. A Tisza-tó valódi kikapcsolódást
+                    nyújt
+                    azoknak, akik a nyugalom és a természet közelségét keresik, és egy lenyűgöző környezetben szeretnék
+                    eltölteni az idejüket.</p>
+            </div>
+        </section>
+        <section id="section_3" class="section">
+            <h2>Szelidi-tó</h2>
+            <figure>
+                <img src="img/strand_szelidi_to.jpg" alt="szelidi_to">
+                <figcaption>Szelidi Strandfürdő</figcaption>
+            </figure>
+            <div class="content">
+                <p>A Szelidi-tó egy rejtett gyöngyszem Magyarországon, amelyet még sokan nem fedeztek fel. Ez a tó a
+                    Duna-Tisza köze természetvédelmi területén található, és egy igazi oázis a természet és a víz
+                    szerelmeseinek. A tó körüli erdők és mocsarak kiváló lehetőségeket kínálnak madármegfigyelésre és
+                    természetjárásra. A kék víz és a zöld környezet valódi paradicsom a kajakozás és a csónakázás
+                    szerelmeseinek. A Szelidi-tó partján található kempingek és szálláshelyek ideálisak a természet
+                    közelségét kedvelők számára. Ne hagyja ki a naplementéket, amelyek lenyűgöző látványt nyújtanak a tó
+                    felett. A tó környékén található kis falvakban megtapasztalhatja a hagyományos magyar
+                    vendégszeretetet és az autentikus helyi ételeket. A Szelidi-tó egy igazi kikapcsolódási lehetőség a
+                    természet szerelmesei számára, ahol a városi zajt és stresszt könnyedén feledheti.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Kapcsolat</a></li>
+                    <li><a href="#">Szolgálltatások</a></li>
+                    <li><a href="#">Felhasználási feltételek</a></li>
+                    <li><a href="#">Adatvédelmi szabályzás</a></li>
+                    <li><a href="#">Karrier</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                ©GRDesign 2023 - Minden jog fenntartva
+            </div>
+        </div>
+    </footer>
+
+    </footer>
+
+</body>
+
+</html>
